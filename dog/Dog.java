@@ -1,4 +1,4 @@
-public abstract class Cat {
+public abstract class Dog {
 
     private int[] mustache = { 3, 4 , 7, 8, 9, 10};
     private int[] claws = { 20, 24, 30};
@@ -7,7 +7,7 @@ public abstract class Cat {
         MEDIUM,
         BIG;
     }
-    private String[] fur = {"bold", "fluffy", "short-haired"}
+    private String[] fur = {"bold", "fluffy",åaaaå "short-haired"}
 
     public Cat(int[] mustache, int[] claws, enum Size, String[] fur){
         this.mustache = mustache;
@@ -16,7 +16,7 @@ public abstract class Cat {
         this.Size = size;
     }
 
-    public void meow(){
+    public void bark(){
 
 
     }
